@@ -1,0 +1,14 @@
+#!/bin/bash
+
+/home/vova/arduino/vova/vse_off.py
+sleep 1
+/home/vova/arduino/vova/v1.py &
+
+/home/vova/arduino/vova/blink_red.py &
+
+/home/vova/arduino/vova/red.py &
+
+/home/vova/arduino/vova/bel.py &
+
+/home/vova/arduino/vova/lest.ru &
+
